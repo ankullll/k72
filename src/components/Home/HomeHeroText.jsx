@@ -1,4 +1,4 @@
-import Video from "./Video"
+import Video from '../components/home/Video'
 
 const HomeHeroText = () => {
     return (
