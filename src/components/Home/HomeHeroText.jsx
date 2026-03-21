@@ -9,7 +9,7 @@ const HomeHeroText = () => {
             <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
                 qui
                 <div className='h-[7vw] w-[16vw] rounded-full -mt-1 overflow-hidden '>
-                        <video className='h-full w-full object-cover' autoPlay loop muted src="../69496b2d.mp4"></video>
+                        <video className='h-full w-full object-cover' autoPlay loop muted src="https://www.pexels.com/download/video/36670717/"></video>
 
                 </div>
                 génère
