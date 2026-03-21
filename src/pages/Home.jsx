@@ -1,6 +1,6 @@
-import Video from '../components/home/Video'
-import HomeHeroText from '../components/home/HomeHeroText'
-import HomeBottomText from '../components/home/HomeBottomText'
+import Video from '../components/Home/Video'
+import HomeHeroText from '../components/Home/HomeHeroText'
+import HomeBottomText from '../components/Home/HomeBottomText'
 
 
 const Home = () => {
