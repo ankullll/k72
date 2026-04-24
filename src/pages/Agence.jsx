@@ -11,20 +11,20 @@ const Agence = () => {
   const imageRef = useRef(null)
 
   const imageArray = [
-    'https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Olivier_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Lawrence_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/HugoJoseph_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/ChantalG_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MyleneS_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/SophieA_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Claire_480x640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/Michele_480X640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MEL_480X640-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/CAMILLE_480X640_2-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MAXIME_480X640_2-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/MEGGIE_480X640_2-480x640.jpg',
-    'https://k72.ca/uploads/teamMembers/joel_480X640_3-480x640.jpg',
+    '/assets/Carl_480x640.jpg',
+    '/assets/Olivier_480x640.jpg',
+    '/assets/Lawrence_480x640-480x640.jpg',
+    '/assets/HugoJoseph_480x640-480x640.jpg',
+    '/assets/ChantalG_480x640.jpg',
+    '/assets/MyleneS_480x640-480x640.jpg',
+    '/assets/SophieA_480x640-480x640.jpg',
+    '/assets/Claire_480x640-480x640.jpg',
+    '/assets/Michele_480X640.jpg',
+    '/assets/MEL_480X640.jpg',
+    '/assets/CAMILLE_480X640_2.jpg',
+    '/assets/MAXIME_480X640_2-480x640.jpg',
+    '/assets/MEGGIE_480X640_2.jpg',
+    '/assets/joel_480X640_3.jpg',
   ]
 
   useGSAP(function () {
@@ -60,7 +60,7 @@ const Agence = () => {
     <div className='parent'>
       <div id='page1' className='py-1 '>
         <div ref={imageDivRef} className='absolute overflow-hidden lg:h-[20vw] h-[30vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[25vw] lg:top-96 -top-80 lg:left-[30vw] left-[30vw]'>
-          <img ref={imageRef} className='h-full object-cover w-full' src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg" alt="" />
+          <img ref={imageRef} className='h-full object-cover w-full' src="/assets/Carl_480x640.jpg" alt="" />
         </div>
         <div className='relative font-[font2]'>
           <div className='lg:mt-[55vh] mt-[30vh]'>
